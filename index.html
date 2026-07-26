@@ -209,8 +209,8 @@
     <div class="hero-media hero-logo-bg" aria-hidden="true">
       <picture>
         <img 
-          src="https://drive.google.com/thumbnail?id=1juN2F26z8w44Nod8FsmDYAClrkt08c3P&sz=w1600" 
-          alt="" 
+          src="https://img.youtube.com/vi/-MKt0izoj8k/maxresdefault.jpg" 
+          alt="VisualVerse Agency background visual" 
           width="1600" 
           height="1600" 
           fetchpriority="high" 
@@ -237,33 +237,21 @@
       </ul>
     </div>
     <div class="hero-visual reveal">
-      <div class="visual-frame main-frame" style="position: relative; overflow: hidden;">
-        <!-- Main Auto-Playing Video -->
-        <video 
-          id="heroStudioVideo" 
-          autoplay 
-          loop 
-          muted 
-          playsinline 
-          style="width:100%; height:100%; object-fit:cover;"
-        >
-          <!-- Direct MP4 or preview stream source -->
-          <source src="https://drive.google.com/uc?export=download&id=1juN2F26z8w44Nod8FsmDYAClrkt08c3P" type="video/mp4" />
-        </video>
-
-        <!-- Unmute Audio Control Button Overlay -->
-        <button 
-          id="unmuteBtn" 
-          onclick="toggleVoice()" 
-          style="position: absolute; bottom: 15px; left: 15px; z-index: 10; padding: 8px 14px; background: rgba(0,0,0,0.75); color: #fff; border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: bold; backdrop-filter: blur(4px);"
-        >
-          🔊 Click anywhere to Enable Audio
-        </button>
+      <div class="visual-frame main-frame">
+        <!-- Playable Embedded YouTube Short with Voice/Audio -->
+        <iframe 
+          src="https://www.youtube.com/embed/-MKt0izoj8k?autoplay=1&mute=0&enablejsapi=1&rel=0" 
+          width="100%" 
+          height="100%" 
+          title="If Your Content Feels Off, You Need to See This - VisualVerse Agency" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen 
+          style="border:0;">
+        </iframe>
       </div>
-
       <div class="visual-frame side-frame">
         <iframe 
-          src="https://www.youtube.com/embed/r0LnqQmOqOM?autoplay=1&mute=1&enablejsapi=1&rel=0" 
+          src="https://www.youtube.com/embed/r0LnqQmOqOM?enablejsapi=1&rel=0" 
           width="100%" 
           height="100%" 
           title="AI tutorial video produced by VisualVerse Agency" 
@@ -281,36 +269,16 @@
         <strong>Built for attention</strong>
       </div>
     </div>
+    <div class="hero-reel" aria-hidden="true">
+      <span>AI Video Creation</span>
+      <span>UGC Ads</span>
+      <span>Cinematic Editing</span>
+      <span>AI Visual Design</span>
+      <span>Creative Strategy</span>
+      <span>Social Content</span>
+    </div>
   </section>
 </main>
-
-<script>
-  const video = document.getElementById('heroStudioVideo');
-  const btn = document.getElementById('unmuteBtn');
-
-  function toggleVoice() {
-    if (video.muted) {
-      video.muted = false;
-      btn.innerText = '🔊 Audio On';
-      btn.style.background = 'rgba(0, 200, 83, 0.85)';
-    } else {
-      video.muted = true;
-      btn.innerText = '🔇 Muted (Click to Unmute)';
-      btn.style.background = 'rgba(0,0,0,0.75)';
-    }
-  }
-
-  // Automatic Unmute Trigger on First User Click/Interaction Anywhere on Site
-  document.addEventListener('click', function enableAudioOnGesture() {
-    if (video && video.muted) {
-      video.muted = false;
-      if (btn) {
-        btn.innerText = '🔊 Audio On';
-        btn.style.background = 'rgba(0, 200, 83, 0.85)';
-      }
-    }
-  }, { once: true });
-</script>
     
 </main>
       <section class="stats-band" id="success" aria-label="Agency highlights">
