@@ -13,6 +13,40 @@
     <meta name="keywords" content="AI video agency, AI video production, UGC video creator, professional video editing, documentary video production, branding agency, logo design agency, thumbnail design, AI content creation, creative agency" />
     <link rel="canonical" href="https://visualverseagency.example/" />
 
+    <!-- Google Fonts for Serif Headings + Sans-Serif Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+      /* Apply Serif to all Headings */
+      h1, h2, h3, h4, .intro-title, .brand strong {
+        font-family: 'Playfair Display', Georgia, serif !important;
+      }
+      /* Apply Sans-Serif to Body & General UI */
+      body, p, span, button, a, input, select, textarea, label, li, small {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+      }
+      
+      /* Aspect Ratio & Frame Consistency Controls */
+      .visual-frame, .featured-card iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
+      .main-frame {
+        aspect-ratio: 16 / 9;
+      }
+      .side-frame {
+        aspect-ratio: 9 / 16;
+      }
+      .featured-card iframe {
+        width: 100%;
+        border: 0;
+        border-radius: 12px;
+      }
+    </style>
+
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="VisualVerse Agency" />
     <meta property="og:locale" content="en_US" />
@@ -237,7 +271,7 @@
     </div>
     <div class="hero-visual reveal">
       <div class="visual-frame main-frame">
-        <!-- Playable Google Drive Video Frame -->
+        <!-- Playable Google Drive Video Frame (Maintained Aspect Ratio) -->
         <iframe 
           src="https://drive.google.com/file/d/1juN2F26z8w44Nod8FsmDYAClrkt08c3P/preview" 
           width="100%" 
@@ -249,9 +283,9 @@
         </iframe>
       </div>
       <div class="visual-frame side-frame">
-        <!-- Playable YouTube Video with Full Voice & Audio Controls -->
+        <!-- Playable YouTube Video Frame (Vertical Aspect Ratio 9/16) -->
         <iframe 
-          src="https://www.youtube.com/embed/r0LnqQmOqOM?enablejsapi=1&rel=0" 
+          src="https://www.youtube.com/embed/-MKt0izoj8k?enablejsapi=1&rel=0" 
           width="100%" 
           height="100%" 
           title="AI tutorial video produced by VisualVerse Agency" 
@@ -278,9 +312,7 @@
       <span>Social Content</span>
     </div>
   </section>
-</main>
-    
-</main>
+
       <section class="stats-band" id="success" aria-label="Agency highlights">
         <article>
           <strong data-count="150">150+</strong>
