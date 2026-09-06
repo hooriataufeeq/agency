@@ -1,23 +1,102 @@
+```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
     <meta name="theme-color" content="#050505" />
-    <meta name="description" content="Visual Verse Agency creates AI-powered documentaries, cinematic storytelling, high-retention video editing, animated content, short-form videos, educational media, and digital content." />
-    <meta property="og:title" content="Visual Verse Agency — AI Video Production & Creative Storytelling" />
-    <meta property="og:description" content="Transforming ideas into powerful visual stories." />
+
+    <meta
+      name="description"
+      content="Visual Verse Agency creates AI-powered documentaries, cinematic storytelling, high-retention video editing, animated content, short-form videos, educational media, and digital content."
+    />
+
+    <meta
+      name="keywords"
+      content="Visual Verse Agency, AI video production, AI documentaries, cinematic storytelling, video editing, animation, short-form video, educational content, digital media"
+    />
+
+    <meta name="author" content="Visual Verse Agency" />
+
+    <meta
+      property="og:title"
+      content="Visual Verse Agency — AI Video Production & Creative Storytelling"
+    />
+
+    <meta
+      property="og:description"
+      content="Transforming ideas into powerful visual stories."
+    />
+
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/visual-verse-emblem-transparent.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Visual Verse Agency — AI Video Production & Creative Storytelling" />
-    <meta name="twitter:description" content="Transforming ideas into powerful visual stories." />
-    <link rel="canonical" href="https://your-domain.example/" />
+
+    <meta
+      property="og:image"
+      content="assets/visual-verse-emblem-transparent.png"
+    />
+
+    <meta
+      property="og:image:alt"
+      content="Visual Verse Agency metallic gold emblem"
+    />
+
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta
+      name="twitter:title"
+      content="Visual Verse Agency — AI Video Production & Creative Storytelling"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Transforming ideas into powerful visual stories."
+    />
+
+    <meta
+      name="twitter:image"
+      content="assets/visual-verse-emblem-transparent.png"
+    />
+
+    <link
+      rel="canonical"
+      href="https://your-domain.example/"
+    />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <title>Visual Verse Agency — AI Video Production &amp; Creative Storytelling</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon: official Visual Verse emblem -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/visual-verse-emblem-transparent.png"
+    />
+
+    <title>
+      Visual Verse Agency — AI Video Production & Creative Storytelling
+    </title>
+
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Organization structured data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -25,6 +104,8 @@
         "name": "Visual Verse Agency",
         "description": "AI video production and creative storytelling agency.",
         "email": "visualverseagencyofficial@gmail.com",
+        "url": "https://your-domain.example/",
+        "logo": "assets/visual-verse-emblem-transparent.png",
         "sameAs": [
           "https://www.youtube.com/@visual_verse_agency",
           "https://www.instagram.com/visual_verse_agency/",
@@ -39,114 +120,1159 @@
       }
     </script>
   </head>
+
   <body>
-    <div class="intro" id="intro" aria-label="Visual Verse Agency introduction">
-      <button class="intro-skip" id="skipIntro" type="button">Skip intro</button>
+
+    <!-- =========================================================
+         ACCESSIBILITY
+    ========================================================== -->
+
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+
+
+    <!-- =========================================================
+         CINEMATIC INTRO
+    ========================================================== -->
+
+    <div
+      class="intro"
+      id="intro"
+      aria-label="Visual Verse Agency introduction"
+    >
+      <button
+        class="intro-skip"
+        id="skipIntro"
+        type="button"
+      >
+        Skip intro
+      </button>
+
+      <div class="intro-atmosphere" aria-hidden="true"></div>
+
       <div class="intro-content">
-        <div class="intro-emblem-wrap"><img src="assets/visual-verse-emblem-transparent.png" width="1280" height="1280" alt="Visual Verse Agency metallic gold emblem" loading="eager" /></div>
-        <p class="intro-wordmark">Visual Verse Agency</p>
-        <p class="intro-kicker">Premium digital content &amp; creative production</p>
-        <p class="intro-message">Transforming ideas into powerful visual stories.</p>
-        <button class="intro-enter" id="enterPortfolio" type="button">Enter portfolio <span>↘</span></button>
-        <div class="intro-progress" aria-hidden="true"><span></span></div>
+
+        <div class="intro-emblem-wrap">
+          <img
+            src="assets/visual-verse-emblem-transparent.png"
+            width="1280"
+            height="1280"
+            alt="Visual Verse Agency metallic gold emblem"
+            loading="eager"
+            fetchpriority="high"
+          />
+          <span class="logo-light-sweep" aria-hidden="true"></span>
+        </div>
+
+        <p class="intro-wordmark">
+          Visual Verse Agency
+        </p>
+
+        <p class="intro-kicker">
+          Premium digital content &amp; creative production
+        </p>
+
+        <p class="intro-message">
+          Transforming ideas into powerful visual stories.
+        </p>
+
+        <button
+          class="intro-enter"
+          id="enterPortfolio"
+          type="button"
+        >
+          Enter portfolio
+          <span aria-hidden="true">↘</span>
+        </button>
+
+        <div
+          class="intro-progress"
+          aria-hidden="true"
+        >
+          <span></span>
+        </div>
+
       </div>
     </div>
 
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header" id="siteHeader">
-      <a class="brand" href="#top" aria-label="Visual Verse Agency home">
-        <img src="assets/visual-verse-emblem-transparent.png" width="1280" height="1280" alt="" />
-        <span>Visual<br /><em>Verse</em></span>
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+
+    <header
+      class="site-header"
+      id="siteHeader"
+    >
+      <a
+        class="brand"
+        href="#top"
+        aria-label="Visual Verse Agency home"
+      >
+        <img
+          src="assets/visual-verse-emblem-transparent.png"
+          width="1280"
+          height="1280"
+          alt=""
+          loading="eager"
+        />
+
+        <span>
+          Visual<br />
+          <em>Verse</em>
+        </span>
       </a>
-      <nav class="desktop-nav" aria-label="Primary navigation">
-        <a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#success">Success</a><a href="#contact">Contact</a>
+
+
+      <nav
+        class="desktop-nav"
+        aria-label="Primary navigation"
+      >
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#success">Success</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span></button>
+
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="mobileMenu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
     </header>
-    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" aria-hidden="true">
-      <button class="mobile-close" id="menuClose" aria-label="Close navigation menu">×</button>
-      <div><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#success">Success</a><a href="#contact">Contact</a></div>
-      <p>Visual Verse Agency<br /><span>Creative production for stories that stay with people.</span></p>
+
+
+    <!-- =========================================================
+         MOBILE NAVIGATION
+    ========================================================== -->
+
+    <nav
+      class="mobile-menu"
+      id="mobileMenu"
+      aria-label="Mobile navigation"
+      aria-hidden="true"
+    >
+      <button
+        class="mobile-close"
+        id="menuClose"
+        type="button"
+        aria-label="Close navigation menu"
+      >
+        ×
+      </button>
+
+      <div class="mobile-menu-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#success">Success</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <p class="mobile-menu-footer">
+        Visual Verse Agency
+        <span>
+          Creative production for stories that stay with people.
+        </span>
+      </p>
     </nav>
 
+
+    <!-- =========================================================
+         MAIN
+    ========================================================== -->
+
     <main id="main">
-      <section class="hero section" id="top" aria-labelledby="heroTitle">
-        <div class="hero-noise"></div>
+
+
+      <!-- =======================================================
+           HERO
+      ======================================================== -->
+
+      <section
+        class="hero section"
+        id="top"
+        aria-labelledby="heroTitle"
+      >
+        <div
+          class="hero-noise"
+          aria-hidden="true"
+        ></div>
+
+        <div
+          class="hero-atmosphere"
+          aria-hidden="true"
+        ></div>
+
+
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Portfolio &amp; creative production studio</p>
-          <h1 id="heroTitle">Visual Verse<br /><span class="gold-gradient">Agency</span></h1>
-          <p class="hero-statement">Transforming ideas into powerful visual stories.</p>
-          <p class="hero-description">Professional AI documentaries, cinematic storytelling, high-retention video editing, animated content, educational media, short-form production, and digital storytelling solutions.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#portfolio">Explore portfolio <span>↘</span></a><a class="button button-secondary" href="https://wa.me/923088846208" target="_blank" rel="noopener noreferrer">WhatsApp us <span>↗</span></a></div>
+
+          <p class="eyebrow">
+            <span></span>
+            Portfolio &amp; creative production studio
+          </p>
+
+          <h1 id="heroTitle">
+            Visual Verse
+            <br />
+            <span class="gold-gradient">
+              Agency
+            </span>
+          </h1>
+
+          <p class="hero-statement">
+            Transforming ideas into powerful visual stories.
+          </p>
+
+          <p class="hero-description">
+            Professional AI documentaries, cinematic storytelling,
+            high-retention video editing, animated content,
+            educational media, short-form production, and digital
+            storytelling solutions.
+          </p>
+
+
+          <div class="hero-actions">
+
+            <a
+              class="button button-primary"
+              href="#portfolio"
+            >
+              Explore portfolio
+              <span aria-hidden="true">↘</span>
+            </a>
+
+            <a
+              class="button button-secondary"
+              href="https://wa.me/923088846208"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp us
+              <span aria-hidden="true">↗</span>
+            </a>
+
+          </div>
+
         </div>
-        <div class="hero-art reveal" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="star star-one">✦</div><div class="star star-two">✦</div><div class="hero-emblem"><img src="assets/visual-verse-emblem-transparent.png" width="1280" height="1280" alt="" loading="eager" fetchpriority="high" /></div><p>EST. 2026 <i></i> DIGITAL STORYTELLING</p></div>
-        <a class="scroll-cue" href="#about">Scroll to explore <span></span></a>
+
+
+        <div
+          class="hero-art reveal"
+          aria-hidden="true"
+        >
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="star star-one">✦</div>
+          <div class="star star-two">✦</div>
+
+          <div class="hero-emblem">
+            <img
+              src="assets/visual-verse-emblem-transparent.png"
+              width="1280"
+              height="1280"
+              alt=""
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+
+          <p>
+            EST. 2026
+            <i></i>
+            DIGITAL STORYTELLING
+          </p>
+        </div>
+
+
+        <a
+          class="scroll-cue"
+          href="#about"
+        >
+          Scroll to explore
+          <span></span>
+        </a>
+
       </section>
 
-      <section class="about section" id="about" aria-labelledby="aboutTitle">
-        <div class="section-label reveal"><span>01</span> The agency</div>
+
+      <!-- =======================================================
+           ABOUT OUR STUDIO
+      ======================================================== -->
+
+      <section
+        class="about section"
+        id="about"
+        aria-labelledby="aboutTitle"
+      >
+
+        <div class="section-label reveal">
+          <span>01</span>
+          Our studio
+        </div>
+
+
         <div class="about-layout">
-          <div class="about-intro reveal"><h2 id="aboutTitle">Stories deserve<br />a <span class="gold-gradient">visual language.</span></h2><p class="editorial-line">From ideas to stories. From stories to powerful visual experiences.</p></div>
-          <div class="about-copy reveal"><p>Visual Verse Agency is a multidisciplinary creative agency delivering AI-powered productions, long-form documentaries, cinematic storytelling, high-retention video editing, animated content, short-form video production, educational content, and digital media solutions.</p><p>We craft narratives that resonate across every digital platform—with purpose, clarity, and cinematic intent.</p></div>
+
+          <div class="about-intro reveal">
+
+            <p class="micro-label">
+              01 / THE STUDIO
+            </p>
+
+            <h2 id="aboutTitle">
+              Stories deserve
+              <br />
+              a
+              <span class="gold-gradient">
+                visual language.
+              </span>
+            </h2>
+
+            <p class="editorial-line">
+              From ideas to stories.
+              From stories to powerful visual experiences.
+            </p>
+
+            <span
+              class="gold-hairline"
+              aria-hidden="true"
+            ></span>
+
+          </div>
+
+
+          <div class="about-copy reveal">
+
+            <p>
+              Visual Verse Agency transforms ideas into cinematic,
+              engaging, and platform-ready visual stories through
+              AI-powered production, editing, animation, and
+              digital storytelling.
+            </p>
+
+            <p>
+              We craft narratives that resonate across digital
+              platforms—with purpose, clarity, and cinematic intent.
+            </p>
+
+          </div>
+
         </div>
-        <button class="intro-video reveal" type="button" data-video-id="NN3Qvk4huyE" data-video-title="Visual Verse Agency studio film" data-video-format="9:16" aria-label="Play the Visual Verse Agency studio film muted">
-          <img src="https://img.youtube.com/vi/NN3Qvk4huyE/maxresdefault.jpg" alt="Visual Verse Agency studio film thumbnail" loading="lazy" decoding="async" />
-          <span class="video-fallback"><strong>Visual Verse Agency</strong><small>Studio film</small></span><span class="video-shade"></span><span class="play-button">▶</span><span class="video-caption"><b>About our studio</b><small>Play muted film ↗</small></span>
-        </button>
+
+
+        <!-- Portrait YouTube Short -->
+        <div class="about-media-layout">
+
+          <div class="about-media-meta reveal">
+            <span>ABOUT OUR STUDIO</span>
+            <span>9:16 / YOUTUBE SHORT</span>
+          </div>
+
+
+          <div class="about-video-column reveal">
+
+            <button
+              class="intro-video portrait-video"
+              type="button"
+              data-video-id="NN3Qvk4huyE"
+              data-video-title="Visual Verse Agency — About Our Studio"
+              data-video-format="9:16"
+              aria-label="Play About Our Studio video muted"
+            >
+
+              <img
+                src="https://img.youtube.com/vi/NN3Qvk4huyE/maxresdefault.jpg"
+                alt="Visual Verse Agency About Our Studio video"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <span class="video-fallback">
+                <strong>Visual Verse Agency</strong>
+                <small>About our studio</small>
+              </span>
+
+              <span
+                class="video-shade"
+                aria-hidden="true"
+              ></span>
+
+              <span
+                class="play-button"
+                aria-hidden="true"
+              >
+                ▶
+              </span>
+
+              <span class="video-caption">
+                <b>About our studio</b>
+                <small>Play muted film ↗</small>
+              </span>
+
+            </button>
+
+          </div>
+
+        </div>
+
       </section>
 
-      <section class="services section" id="services" aria-labelledby="servicesTitle">
-        <div class="section-heading reveal"><div class="section-label"><span>02</span> What we do</div><h2 id="servicesTitle">What we <span class="gold-gradient">create.</span></h2><p>Production capabilities shaped around the way modern stories move.</p></div>
-        <div class="service-list" id="serviceList"></div>
+
+      <!-- =======================================================
+           SERVICES
+      ======================================================== -->
+
+      <section
+        class="services section"
+        id="services"
+        aria-labelledby="servicesTitle"
+      >
+
+        <div class="section-heading reveal">
+
+          <div class="section-label">
+            <span>02</span>
+            What we create
+          </div>
+
+          <h2 id="servicesTitle">
+            What we
+            <span class="gold-gradient">
+              create.
+            </span>
+          </h2>
+
+          <p>
+            Production capabilities shaped around the way
+            modern stories move.
+          </p>
+
+        </div>
+
+
+        <!-- Rendered dynamically from JavaScript -->
+        <div
+          class="service-list"
+          id="serviceList"
+        ></div>
+
       </section>
 
-      <section class="featured section" aria-label="Featured projects">
-        <div class="featured-top reveal"><div class="section-label"><span>03</span> Selected work</div><p>Featured projects <span class="gold-dot"></span> <span id="featuredCount">0</span> selected</p></div>
-        <div class="marquee-wrap reveal"><div class="featured-track" id="featuredTrack"></div></div>
+
+      <!-- =======================================================
+           FEATURED PORTFOLIO
+      ======================================================== -->
+
+      <section
+        class="featured section"
+        aria-labelledby="featuredTitle"
+      >
+
+        <div class="featured-top reveal">
+
+          <div>
+            <div class="section-label">
+              <span>03</span>
+              Selected work
+            </div>
+
+            <h2
+              id="featuredTitle"
+              class="sr-only"
+            >
+              Featured portfolio
+            </h2>
+          </div>
+
+          <p>
+            Featured projects
+            <span class="gold-dot"></span>
+            <span id="featuredCount">0</span>
+            selected
+          </p>
+
+        </div>
+
+
+        <!-- Dynamically populated -->
+        <div
+          class="featured-track"
+          id="featuredTrack"
+        ></div>
+
       </section>
 
-      <section class="portfolio section" id="portfolio" aria-labelledby="portfolioTitle">
-        <div class="portfolio-top reveal"><div><div class="section-label"><span>04</span> The work</div><h2 id="portfolioTitle">A library of<br /><span class="gold-gradient">visual stories.</span></h2></div><p>Browse documentaries, edits, animation, tutorials and short-form work built to inform, engage, and stay in motion.</p></div>
-        <div class="portfolio-controls reveal"><div class="filter-wrap" id="filterWrap" aria-label="Portfolio filters"></div><label class="project-search"><span class="sr-only">Search projects</span><input type="search" id="projectSearch" placeholder="Search projects..." autocomplete="off" /><i>⌕</i></label></div>
-        <div class="portfolio-meta reveal"><span id="projectCount">0 projects</span><span id="portfolioStatus" role="status" aria-live="polite"></span></div>
-        <div class="portfolio-chapters" id="portfolioChapters"></div>
+
+      <!-- =======================================================
+           PORTFOLIO
+      ======================================================== -->
+
+      <section
+        class="portfolio section"
+        id="portfolio"
+        aria-labelledby="portfolioTitle"
+      >
+
+        <div class="portfolio-top reveal">
+
+          <div>
+
+            <div class="section-label">
+              <span>04</span>
+              The work
+            </div>
+
+            <h2 id="portfolioTitle">
+              A library of
+              <br />
+              <span class="gold-gradient">
+                visual stories.
+              </span>
+            </h2>
+
+          </div>
+
+          <p>
+            Browse documentaries, edits, animation, tutorials
+            and short-form work built to inform, engage,
+            and stay in motion.
+          </p>
+
+        </div>
+
+
+        <!-- Portfolio filters and search -->
+
+        <div class="portfolio-controls reveal">
+
+          <div
+            class="filter-wrap"
+            id="filterWrap"
+            aria-label="Portfolio filters"
+          ></div>
+
+
+          <label class="project-search">
+
+            <span class="sr-only">
+              Search projects
+            </span>
+
+            <input
+              type="search"
+              id="projectSearch"
+              placeholder="Search projects..."
+              autocomplete="off"
+              aria-label="Search projects"
+            />
+
+            <i aria-hidden="true">⌕</i>
+
+          </label>
+
+        </div>
+
+
+        <div class="portfolio-meta reveal">
+
+          <span id="projectCount">
+            0 projects
+          </span>
+
+          <span
+            id="portfolioStatus"
+            role="status"
+            aria-live="polite"
+          ></span>
+
+        </div>
+
+
+        <!--
+          All portfolio category sections are generated here.
+
+          The JavaScript dataset is the single source of truth.
+        -->
+
+        <div
+          class="portfolio-chapters"
+          id="portfolioChapters"
+        ></div>
+
       </section>
 
-      <section class="process section" id="success" aria-labelledby="processTitle">
-        <div class="section-label reveal"><span>05</span> Why Visual Verse</div>
-        <div class="process-title reveal"><h2 id="processTitle">The story is the<br /><span class="gold-gradient">strategy.</span></h2><p>Every choice serves the narrative—and every deliverable is ready for the platform it belongs on.</p></div>
-        <div class="process-grid" id="processGrid"></div>
-        <div class="stats-grid reveal" id="statsGrid" aria-label="Portfolio statistics"></div>
+
+      <!-- =======================================================
+           WHY VISUAL VERSE / SUCCESS
+      ======================================================== -->
+
+      <section
+        class="process section"
+        id="success"
+        aria-labelledby="processTitle"
+      >
+
+        <div class="section-label reveal">
+          <span>08</span>
+          Why Visual Verse
+        </div>
+
+
+        <div class="process-title reveal">
+
+          <h2 id="processTitle">
+            The story is the
+            <br />
+            <span class="gold-gradient">
+              strategy.
+            </span>
+          </h2>
+
+          <p>
+            Every choice serves the narrative—and every deliverable
+            is ready for the platform it belongs on.
+          </p>
+
+        </div>
+
+
+        <!-- Dynamically populated -->
+        <div
+          class="process-grid"
+          id="processGrid"
+        ></div>
+
+
+        <!-- Dynamic dataset statistics -->
+        <div
+          class="stats-grid reveal"
+          id="statsGrid"
+          aria-label="Portfolio statistics"
+        ></div>
+
       </section>
 
-      <section class="social section" aria-labelledby="socialTitle">
-        <div class="social-copy reveal"><div class="section-label"><span>06</span> Connected</div><h2 id="socialTitle">Find us across the<br /><span class="gold-gradient">digital landscape.</span></h2></div>
-        <div class="social-list reveal" id="socialList"></div>
+
+      <!-- =======================================================
+           SOCIAL / PROFESSIONAL PRESENCE
+      ======================================================== -->
+
+      <section
+        class="social section"
+        aria-labelledby="socialTitle"
+      >
+
+        <div class="social-copy reveal">
+
+          <div class="section-label">
+            <span>09</span>
+            Connected
+          </div>
+
+          <h2 id="socialTitle">
+            Find us across the
+            <br />
+            <span class="gold-gradient">
+              digital landscape.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <!-- Rendered from socialLinks dataset -->
+        <div
+          class="social-list reveal"
+          id="socialList"
+        ></div>
+
       </section>
 
-      <section class="contact section" id="contact" aria-labelledby="contactTitle">
-        <div class="contact-intro reveal"><div class="section-label"><span>07</span> Start a conversation</div><h2 id="contactTitle">Let's create something <span class="gold-gradient">worth watching.</span></h2><p>Have an idea, campaign, documentary, channel, or visual story in mind? Let's turn it into something people remember.</p><div class="contact-links"><a href="mailto:visualverseagencyofficial@gmail.com">visualverseagencyofficial@gmail.com <span>↗</span></a><a href="https://wa.me/923088846208" target="_blank" rel="noopener noreferrer">WhatsApp us <span>↗</span></a></div></div>
-        <form class="contact-form reveal" id="contactForm" novalidate>
-          <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required /></div>
-          <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
-          <div class="form-field"><label for="projectType">Project type</label><select id="projectType" name="projectType" required><option value="">Select a project type</option><option>AI Video Production</option><option>Documentary</option><option>Video Editing</option><option>Animation</option><option>Short-Form Content</option><option>Educational Content</option><option>Social Media Content</option><option>Other</option></select></div>
-          <div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div>
-          <button class="button button-primary form-submit" type="submit">Send project inquiry <span>↗</span></button><p class="form-status" id="formStatus" aria-live="polite"></p>
+
+      <!-- =======================================================
+           ANIMATED VIDEOS
+           
+           FINAL CREATIVE / PORTFOLIO SECTION
+      ======================================================== -->
+
+      <section
+        class="animated-videos section"
+        id="animated-videos"
+        aria-labelledby="animatedVideosTitle"
+      >
+
+        <div class="animated-heading reveal">
+
+          <div class="section-label">
+            <span>10</span>
+            Animated videos
+          </div>
+
+          <div class="animated-heading-layout">
+
+            <h2 id="animatedVideosTitle">
+              Motion with
+              <br />
+              <span class="gold-gradient">
+                purpose.
+              </span>
+            </h2>
+
+            <p>
+              Animated visual stories designed to communicate
+              ideas, strategies, technology, and digital concepts
+              through engaging motion and concise storytelling.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="animated-line"
+          aria-hidden="true"
+        >
+          <span></span>
+        </div>
+
+
+        <!--
+          JavaScript renders ONLY Animated Videos here.
+
+          This is intentionally the final creative showcase.
+        -->
+
+        <div
+          class="animated-projects"
+          id="animatedProjects"
+        ></div>
+
+      </section>
+
+
+      <!-- =======================================================
+           CONTACT CTA
+      ======================================================== -->
+
+      <section
+        class="contact section"
+        id="contact"
+        aria-labelledby="contactTitle"
+      >
+
+        <div class="contact-intro reveal">
+
+          <div class="section-label">
+            <span>11</span>
+            Start a conversation
+          </div>
+
+
+          <h2 id="contactTitle">
+            Let's create something
+            <span class="gold-gradient">
+              worth watching.
+            </span>
+          </h2>
+
+
+          <p>
+            Have an idea, campaign, documentary, channel,
+            or visual story in mind? Let's turn it into
+            something people remember.
+          </p>
+
+
+          <div class="contact-links">
+
+            <a
+              href="mailto:visualverseagencyofficial@gmail.com"
+            >
+              visualverseagencyofficial@gmail.com
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              href="https://wa.me/923088846208"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp us
+              <span aria-hidden="true">↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- =====================================================
+             CONTACT FORM
+        ====================================================== -->
+
+        <form
+          class="contact-form reveal"
+          id="contactForm"
+          novalidate
+        >
+
+          <div class="form-field">
+
+            <label for="name">
+              Name
+            </label>
+
+            <input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              required
+              minlength="2"
+            />
+
+            <small
+              class="field-error"
+              data-error-for="name"
+              aria-live="polite"
+            ></small>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="email">
+              Email
+            </label>
+
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+
+            <small
+              class="field-error"
+              data-error-for="email"
+              aria-live="polite"
+            ></small>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="projectType">
+              Project type
+            </label>
+
+            <select
+              id="projectType"
+              name="projectType"
+              required
+            >
+
+              <option value="">
+                Select a project type
+              </option>
+
+              <option>
+                AI Video Production
+              </option>
+
+              <option>
+                Documentary
+              </option>
+
+              <option>
+                Video Editing
+              </option>
+
+              <option>
+                Animation
+              </option>
+
+              <option>
+                Short-Form Content
+              </option>
+
+              <option>
+                Educational Content
+              </option>
+
+              <option>
+                Social Media Content
+              </option>
+
+              <option>
+                Other
+              </option>
+
+            </select>
+
+            <small
+              class="field-error"
+              data-error-for="projectType"
+              aria-live="polite"
+            ></small>
+
+          </div>
+
+
+          <div class="form-field">
+
+            <label for="message">
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              minlength="10"
+              required
+            ></textarea>
+
+            <small
+              class="field-error"
+              data-error-for="message"
+              aria-live="polite"
+            ></small>
+
+          </div>
+
+
+          <button
+            class="button button-primary form-submit"
+            type="submit"
+          >
+            Send project inquiry
+            <span aria-hidden="true">↗</span>
+          </button>
+
+
+          <p
+            class="form-status"
+            id="formStatus"
+            role="status"
+            aria-live="polite"
+          ></p>
+
         </form>
+
       </section>
+
     </main>
-    <dialog class="video-player" id="videoPlayer" aria-labelledby="videoPlayerTitle">
-      <div class="video-player-bar"><p id="videoPlayerTitle">Visual Verse Agency video</p><span>Muted playback</span><button id="closePlayer" type="button" aria-label="Close video player">×</button></div>
-      <div class="video-stage"><iframe id="videoFrame" title="Visual Verse Agency video player" src="about:blank" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+
+
+    <!-- =========================================================
+         VIDEO PLAYER
+         
+         Iframes are created ONLY when the user opens a video.
+         Autoplay is muted.
+    ========================================================== -->
+
+    <dialog
+      class="video-player"
+      id="videoPlayer"
+      aria-labelledby="videoPlayerTitle"
+    >
+
+      <div class="video-player-bar">
+
+        <div>
+          <p id="videoPlayerTitle">
+            Visual Verse Agency video
+          </p>
+
+          <span id="videoPlayerFormat">
+            Muted playback
+          </span>
+        </div>
+
+
+        <button
+          id="closePlayer"
+          type="button"
+          aria-label="Close video player"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <div class="video-stage">
+
+        <div
+          class="video-loading"
+          id="videoLoading"
+          aria-hidden="true"
+        >
+          <span></span>
+          Loading film
+        </div>
+
+        <iframe
+          id="videoFrame"
+          title="Visual Verse Agency video player"
+          src="about:blank"
+          loading="lazy"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+      </div>
+
     </dialog>
 
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
     <footer class="site-footer">
-      <div class="footer-top"><a class="footer-brand" href="#top">Visual Verse <span>Agency</span></a><p>Transforming ideas into powerful visual stories.</p></div>
-      <div class="footer-main"><nav aria-label="Footer navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav><a class="footer-email" href="mailto:visualverseagencyofficial@gmail.com">visualverseagencyofficial@gmail.com <span>↗</span></a></div>
-      <div class="footer-socials" id="footerSocials" aria-label="Visual Verse Agency social media links"></div>
-      <div class="footer-bottom"><span>© <span id="year">2026</span> Visual Verse Agency. All rights reserved.</span><a href="#top">Back to top ↑</a></div>
+
+      <div class="footer-top">
+
+        <a
+          class="footer-brand"
+          href="#top"
+        >
+          Visual Verse
+          <span>Agency</span>
+        </a>
+
+        <p>
+          Transforming ideas into powerful visual stories.
+        </p>
+
+      </div>
+
+
+      <div class="footer-main">
+
+        <nav
+          aria-label="Footer navigation"
+        >
+          <a href="#about">
+            About
+          </a>
+
+          <a href="#services">
+            Services
+          </a>
+
+          <a href="#portfolio">
+            Portfolio
+          </a>
+
+          <a href="#success">
+            Success
+          </a>
+
+          <a href="#contact">
+            Contact
+          </a>
+        </nav>
+
+
+        <a
+          class="footer-email"
+          href="mailto:visualverseagencyofficial@gmail.com"
+        >
+          visualverseagencyofficial@gmail.com
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+
+      <!--
+        All nine social links are rendered dynamically.
+
+        The social row is intentionally near the absolute
+        bottom of the footer and remains visible on mobile.
+      -->
+
+      <div
+        class="footer-socials"
+        id="footerSocials"
+        aria-label="Visual Verse Agency social media links"
+      ></div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          ©
+          <span id="year">2026</span>
+          Visual Verse Agency.
+          All rights reserved.
+        </span>
+
+        <a href="#top">
+          Back to top ↑
+        </a>
+
+      </div>
+
     </footer>
-    <a class="whatsapp-float" href="https://wa.me/923088846208" target="_blank" rel="noopener noreferrer" aria-label="Message Visual Verse Agency on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11 19.9L3.5 28.5l5.8-1.5A13 13 0 1 0 16 3Zm0 23.5a10.4 10.4 0 0 1-5.3-1.5l-.4-.2-3.4.9.9-3.3-.3-.5A10.5 10.5 0 1 1 16 26.5Zm5.8-7.8c-.3-.2-1.8-.9-2.1-1s-.5-.2-.8.2-.9 1-1.1 1.2-.4.3-.7.1a8.4 8.4 0 0 1-2.5-1.5 9.3 9.3 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.5 0-.7l-1-2.3c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.7.1-1 .5s-1.4 1.3-1.4 3.2 1.4 3.7 1.6 4 .7.9 1.6 1.6a15.8 15.8 0 0 0 6.1 3c1.2.4 2.2.3 3 .2.9-.1 1.8-.8 2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z" /></svg></a>
-    <script src="script.js" defer></script>
+
+
+    <!-- =========================================================
+         FLOATING WHATSAPP
+    ========================================================== -->
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/923088846208"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Message Visual Verse Agency on WhatsApp"
+    >
+
+      <svg
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          d="M16 3a13 13 0 0 0-11 19.9L3.5 28.5l5.8-1.5A13 13 0 1 0 16 3Zm0 23.5a10.4 10.4 0 0 1-5.3-1.5l-.4-.2-3.4.9.9-3.3-.3-.5A10.5 10.5 0 1 1 16 26.5Zm5.8-7.8c-.3-.2-1.8-.9-2.1-1s-.5-.2-.8.2-.9 1-1.1 1.2-.4.3-.7.1a8.4 8.4 0 0 1-2.5-1.5 9.3 9.3 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.5 0-.7l-1-2.3c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.7.1-1 .5s-1.4 1.3-1.4 3.2 1.4 3.7 1.6 4 .7.9 1.6 1.6a15.8 15.8 0 0 0 6.1 3c1.2.4 2.2.3 3 .2.9-.1 1.8-.8 2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"
+        />
+      </svg>
+
+    </a>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+         
+         defer keeps HTML parsing fast and prevents JS from
+         blocking initial rendering.
+    ========================================================== -->
+
+    <script
+      src="script.js"
+      defer
+    ></script>
+
   </body>
 </html>
+```
+
